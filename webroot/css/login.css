@@ -1,0 +1,58 @@
+.register-btn {
+    transition: 1s;
+    display: inline-block;
+    font-family: Muller Light, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff5f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 35px 16px 40px;
+    background-color: #fe5242;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.pay-btn {
+    padding: 18px 17px 14px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+.register-btn:hover {
+    background-color: #fd6d5f;
+    color: #fff5f4;
+    text-decoration: none;
+}
+
+.register-btn:focus {
+    background-color: #fd6d5f;
+    color: #fff5f4;
+    text-decoration: none;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #969696;
+    background: transparent;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+    border-bottom: 1px solid #fe5242;
+    color: #fe5242;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border-bottom: 1px solid #fe5242;
+    color: #fe5242;
+    box-shadow: none;
+}
+
+.admin-form {
+    margin-top: 15%;
+}
